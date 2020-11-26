@@ -7,6 +7,7 @@ struct TSamochod {
 	string marka;
 	string model;
 	int rocznik;
+	int liczba_drzwi
 };
 
 void wypisz_samochody(const TSamochod *stab, int N)
